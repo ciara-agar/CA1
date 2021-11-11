@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.views.generic import ListView
 
-# Create your views here.
+from .models import Request
+
+class RequestListView(ListView):
+    model = Request
+    template_name = 'request.html'
