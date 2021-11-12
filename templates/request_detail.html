@@ -1,0 +1,11 @@
+{% extends 'base.html %}
+
+{% block content %}
+    <div class="post-entry">
+        <h2>{{ request.title }}</h2>
+        <p>{{request.body }}</p>
+    </div>
+
+    <p><a href="{% url 'request_edit' request.pk %}">+ Edit Request</a></p>
+    <p><a href="{% url 'request_delete' request.pk %}">+ Delete Request</a></p>
+{% endblock content %}
