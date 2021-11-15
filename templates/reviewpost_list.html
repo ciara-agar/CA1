@@ -1,0 +1,11 @@
+<!-- templates/reviewpost_list.html -->
+{% extends 'base.html %}
+
+{% block content %}
+    {% for request in all_posts_list %}
+        <div class="post-entry">
+            <h2><a href="{% url 'reviewpost_detail' review.pk %}">{{ review.title }}</a></h2>
+            <p>{{ review.body }}</p>
+        </div>
+    {% endfor %}
+{% endblock content %}
