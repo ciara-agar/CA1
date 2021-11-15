@@ -3,7 +3,7 @@
 {% block content %}
     {% for request in all_posts_list %}
         <div class="post-entry">
-            <h2><a href="{% url 'request_deatil' request.pk %}">{{ request.title }}</a></h2>
+            <h2><a href="{% url 'request_detail' request.pk %}">{{ request.title }}</a></h2>
             <p>{{ request.body }}</p>
         </div>
     {% endfor %}
