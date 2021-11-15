@@ -6,7 +6,7 @@ from .models import Request
 
 class RequestListView(ListView):
     model = Request
-    template_name = 'request.html'
+    template_name = 'request_.html'
     context_object_name = 'all_requests_list'
 
 class RequestDetailView(DetailView):
