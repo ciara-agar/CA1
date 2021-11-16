@@ -22,17 +22,15 @@
         <ul>
                
             <li class="button"><a href="home.html">Home</a></li>
-            <li class="button"><a href="salon_home/">Salon Info</a></li>
-            <li class="button"><a href="salon_reviews/">Salon Reviews</a></li>
+            <li class="button"><a href="reviewpost_list.html">Salon Reviews</a></li>
+            <li class="button"><a href="request_list.html">Salon Requests</a></li>
         </ul>
-
-    <img src="logosaloncrop.png" alt="salonlogo">
     </nav>
 </head>
 
 <div class="hpinfo">
 <h1>Homepage</h1>
-
+    <img src="../static/images/logosaloncrop.png" alt="salonlogo">
     <h2>Salon news and online offers</h2>
             <ul>
                 {% for post in all_posts_list %}
@@ -53,16 +51,17 @@
         {% endfor %}
 
 
-
-
-
-
-
-
-
-
 <footer>
+<<<<<<< HEAD
    
+=======
+    <ul>
+
+        <li><a href="home.html">Home</a></li>
+        <li><a href="reviewpost_list.html">Salon Reviews</a></li>
+        <li><a href="request_list.html">Salon Requests</a></li>
+     </ul>
+>>>>>>> cbaf0cc00de1177a1f342342e2633fe626f896d3
 </footer>
 
 {% endblock content %}
