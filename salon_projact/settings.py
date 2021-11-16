@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     'accounts',
     'salon_home',
     'salon_reviews',
+    #3rd party apps
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +123,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
