@@ -47,7 +47,7 @@ body {
 
 .navbar a { 
 
-    color: whitesmoke ; 
+    color: rgb(27, 27, 27) ; 
 
     text-decoration: none; } 
 
@@ -91,6 +91,4 @@ body {
     display: flex;
     padding-top: 2rem;
     }
-   
-
 
