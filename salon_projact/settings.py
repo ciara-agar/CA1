@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'salon',
     'salon_shop',
-    'salon_client',
+    'salon_review',
     'salon_request',
     'accounts',
     'salon_home',

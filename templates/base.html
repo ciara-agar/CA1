@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 {% load static %}
 <html>
-    
+    <meta charset="utf-8">
     <header>
         <title>Homepage</title>
         
@@ -30,19 +31,18 @@
                     <h1><a href="{% url 'home' %}">Write Review</a></h1>
                 </div>
                 <div class="nav-right"> 
-                    <a href="{% url 'reviewpost_new/' %}">+ Write New Review</a>
+                    <a href="{% url 'reviewpost_new' %}">+ Write New Review</a>
                 </div>
             </header>
                <div>
-               {% block cntent%}
-               {% endlblock content %}
+               
                </div>
        </body>
     
 
 
 
-       
+
     <head>
         <title>New Appointment Request</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400">
