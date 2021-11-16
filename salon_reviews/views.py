@@ -27,6 +27,7 @@ class ReviewsUpdateView(UpdateView):
     model = Reviews 
     template_name = 'reviewpost_edit.html'
     fields = ['title', 'body']
+    success_url = reverse_lazy('home')
 
 class ReviewsDeleteView(DeleteView):
     mmodel = Reviews 
