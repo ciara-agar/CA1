@@ -54,7 +54,7 @@ body {
  
 
 
-    
+
    header {
     border-bottom: 1px solid #999;
     margin-bottom: 2rem;
@@ -91,4 +91,11 @@ body {
     display: flex;
     padding-top: 2rem;
     }
+<<<<<<< HEAD
+   
+    .hpinfo {
+
+        }
+=======
+>>>>>>> cbaf0cc00de1177a1f342342e2633fe626f896d3
 
