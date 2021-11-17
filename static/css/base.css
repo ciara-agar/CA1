@@ -61,7 +61,7 @@ body {
     display: flex;
    }
    header h1 a {
-    color: yellow;
+    color: goldenrod;
     text-decoration: none;
    }
    .post-entry {
@@ -80,7 +80,7 @@ body {
     font-weight: 400;
    }
    .post-entry h2 a:hover {
-    color: yellow;
+    color: goldenrod;
    }
 
    .nav-left {

@@ -11,7 +11,7 @@ class Category(models.Model):
         editable=False)
     name = models.CharField(max_length=250)
     description = models.TextField(blank=True)
-    image = models.ImageField(upload_to='catgeory', blank=False)
+    image = models.ImageField(upload_to='category', blank=False)
 
     class Meta:
         ordering = ('name',)
